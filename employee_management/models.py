@@ -5,5 +5,5 @@ class Employee(models.Model):
     email = models.CharField(max_length=70)
     department = models.CharField(max_length=30)
 
-    def __str__(self):
+    def tuple(self):
         return self.name, self.email, self.department
